@@ -1,0 +1,17 @@
+item_1 = 100
+print ("item 1 costs" , item_1)
+
+item_2 = 500
+print ("item 2 costs" , item_2)
+
+item_3 = 600
+print ("item 3 costs" , item_3)
+
+total_budget = 1000
+print ("total budget is" , total_budget)
+
+total_cost_items = item_1 + item_2 + item_3
+print ("total cost of items 1 , 2 and 3 is" , total_cost_items)
+
+money_needed = total_cost_items - total_budget
+print ("money needed to buy the 3 items" , money_needed)
