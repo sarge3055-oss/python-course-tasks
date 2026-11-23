@@ -1,7 +1,7 @@
 #task2 part1
 
 
-temp = 30 
+temp = float(input("Enter the temperature in Celsius: "))
 
 if temp >= 30 :
     print ("it's a hot day, stay hydrated!")
